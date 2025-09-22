@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+	background: url('../images/glitch2.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.error-container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.error-card {
+	border-radius: 1rem;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.error-icon {
+	font-size: 4rem;
+	color: #dc3545;
+}
